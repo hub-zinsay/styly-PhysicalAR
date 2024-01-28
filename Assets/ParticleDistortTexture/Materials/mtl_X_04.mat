@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: mtl_X_04
   m_Shader: {fileID: 4800000, guid: 248c938d6c80a154a8b037fde3c6ac52, type: 3}
   m_ShaderKeywords: 
@@ -21,7 +22,7 @@ Material:
     - _Distort:
         m_Texture: {fileID: 2800000, guid: 9488376fe43aa314da5f77b4f9fce9f9, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 66.71065, y: -33.355324}
+        m_Offset: {x: 6.811102, y: -3.405551}
     - _LavaTex:
         m_Texture: {fileID: 2800000, guid: d3f6b18d152c20e4e8bc3a280e873dc9, type: 3}
         m_Scale: {x: 1, y: 1}
