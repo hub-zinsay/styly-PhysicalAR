@@ -249,7 +249,7 @@ Transform:
   - {fileID: 2028333103}
   m_Father: {fileID: 1602269337}
   m_RootOrder: 33
-  m_LocalEulerAnglesHint: {x: 3.849152e-10, y: 0.0000001131948, z: 359.6103}
+  m_LocalEulerAnglesHint: {x: 359.6885, y: 0, z: 0}
 --- !u!95 &2313956
 Animator:
   serializedVersion: 3
@@ -2968,7 +2968,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 154, y: 417}
+  m_AnchoredPosition: {x: 154, y: 201}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67593150
@@ -8149,7 +8149,7 @@ GameObject:
   - component: {fileID: 193276830}
   - component: {fileID: 193276831}
   m_Layer: 0
-  m_Name: Jiku
+  m_Name: Audio reactive
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10512,6 +10512,7 @@ GameObject:
   - component: {fileID: 235902331}
   - component: {fileID: 235902330}
   - component: {fileID: 235902329}
+  - component: {fileID: 235902332}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -10526,7 +10527,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235902327}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.9200001, y: 3, z: -0.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10593,6 +10594,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235902327}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &235902332
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235902327}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &237200149
 GameObject:
   m_ObjectHideFlags: 0
@@ -13221,7 +13241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305334351}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.384, z: 1.647}
+  m_LocalPosition: {x: 0, y: -0.147, z: 1.647}
   m_LocalScale: {x: 1, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1309604790}
@@ -15813,6 +15833,10 @@ PlayableDirector:
     value: {fileID: 1367215996}
   - key: {fileID: 2437962868784377714, guid: a5f02c21530f86a4ababbeccd0ab5839, type: 2}
     value: {fileID: 1487592289}
+  - key: {fileID: 52612674223242131, guid: a5f02c21530f86a4ababbeccd0ab5839, type: 2}
+    value: {fileID: 235902332}
+  - key: {fileID: -1170825554579103931, guid: a5f02c21530f86a4ababbeccd0ab5839, type: 2}
+    value: {fileID: 1871372858}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &359407254
@@ -43043,6 +43067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FX_StarsExplosion
       objectReference: {fileID: 0}
+    - target: {fileID: 1404468135700548, guid: ad4d25dd5bc079a40935b7c244b992da, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4150543271695940, guid: ad4d25dd5bc079a40935b7c244b992da, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.7
@@ -53303,7 +53331,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.11705355, y: -0.08728027}
+  m_AnchoredPosition: {x: -0.11705355, y: -148}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1155508044
@@ -60202,7 +60230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309604790}
   m_Layer: 0
-  m_Name: Box
+  m_Name: Bler shader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60216,7 +60244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1309604789}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.027, y: 0.201, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 305334352}
@@ -86218,6 +86246,7 @@ GameObject:
   - component: {fileID: 1871372857}
   - component: {fileID: 1871372856}
   - component: {fileID: 1871372855}
+  - component: {fileID: 1871372858}
   m_Layer: 0
   m_Name: Cube (13)
   m_TagString: Untagged
@@ -86232,7 +86261,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871372853}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.07999992, y: 3, z: -0.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -86299,6 +86328,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1871372853}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1871372858
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871372853}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1872022003
 GameObject:
   m_ObjectHideFlags: 0
